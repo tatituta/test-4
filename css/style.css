@@ -1,0 +1,132 @@
+body,h1,h2,h3,h4,h5,h6,p,ul,li
+{
+    margin:0;
+    padding:0;
+}
+.row{
+    display:flex;
+}
+.logo{
+    /*margin-left:30px;*/
+}
+
+.header li
+{
+    list-style-type: none;
+    color:white;
+}
+.wrapp{
+    /*background-color: greenyellow;*/
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0 2%;
+}
+.wrapp
+{
+  justify-content: space-between;
+}
+.header a{
+    text-decoration: none;
+    color:white;
+    margin:10px;
+    
+}
+.container{
+    background-image: url(../pics/gym.jpg);
+    min-height: 700px;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.header{
+    /*margin-left: 30%;*/
+}
+
+.last img
+{
+height:20px;
+width:20px;
+/*float:right;*/
+}
+.last{
+    /*margin-left: 380px;*/
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main h1{
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 20px;
+    color:white;
+}
+.main li{
+    margin-top: 25px;
+    list-style-type: none;
+    margin-left: 100px;
+}
+.main ul{
+    margin-top: 50px;
+}
+.main a{
+    text-decoration: none;
+    color:white;
+}
+#listb{
+    display: flex;
+}
+#listb a{
+    display: flex;
+    align-items: center;
+}
+#listb a::before{
+background-image: url(../pics/plus.svg);
+background-repeat: no-repeat;
+background-size: 100%;
+background-position:center;
+content:'';
+height: 10px;
+width: 10px;
+margin-right: 10px;
+}
+.a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main .btn{
+margin-top: 50px;
+display: inline-block;
+position:absolute;
+cursor:pointer;
+color:white;
+font-weight:16px;
+border:none;
+background-color: #1E8C93;
+padding:12px 26px;
+font-weight: bold;
+}
+.lst{
+    justify-content: center; 
+}
+.image img{
+    height:50px;
+    weight:50px;
+    margin-top: 50px;
+    margin-right: 30px;
+}
+.image{
+    display: flex;
+}
+.image span{
+    justify-content: center;
+    margin-top: 50px;
+    transform: translate(-150px,10px);
+    font-weight: bold;
+    font-size: 26px;
+    
+}
+
